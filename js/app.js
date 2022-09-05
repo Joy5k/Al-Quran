@@ -16,7 +16,6 @@ const displayData = (allData) => {
     document.getElementById('cityName').innerText=`${name}`
    document.getElementById("temp").innerText = `${fixedNumber}`;
     const test = document.getElementById("visibility").innerText = `${weather[0].main}`;
-   
 }
 
 document.getElementById('btn-search').addEventListener('click', function () {
